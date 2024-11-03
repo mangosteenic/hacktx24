@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#start {
+	position: absolute;
+	top: 75%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	color: white;
+	font-family: "Silkscreen";
+	font-size: 36px;
+}
+
+#menu {
+	display: none;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	text-align: center;
+	font-family: "Silkscreen";
+	color: white;
+	font-size: 50px;
+}
+
+#interview {
+	font-size: 100px;
+	line-height: 2em;
+}
+
+#ready {
+	font-size: 150px;
+}
+
+#credits {
+	margin-top: 150px;
+}
+
+button {
+	padding: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 0;
+	font-size: 70px;
+	font-family: "Silkscreen";
+	background-color: inherit;
+	color: white;
+}
+
+button:hover {
+	text-decoration: underline;
+}
+
+#bot {
+	display: none;
+	position: absolute;
+}
+
+.silkscreen-regular {
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .silkscreen-bold {
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+
+  .glow-text {
+	color: #fff; /* Set base text color */
+	text-shadow: 
+	  0 0 5px #fff,     /* Inner glow */
+	  0 0 10px #fff,    /* Medium glow */
+	  0 0 15px #f0f,    /* Outer glow with a color */
+	  0 0 20px #f0f,    /* Further glow */
+	  0 0 30px #f0f,    /* Intensifies outer glow */
+	  0 0 40px #f0f;
+	font-size: 2em;
+  }
+
+  @keyframes glow {
+	0%, 100% {
+	  text-shadow: 
+		0 0 5px #fff, 
+		0 0 10px #fff, 
+		0 0 15px #f0f, 
+		0 0 20px #f0f, 
+		0 0 30px #f0f, 
+		0 0 40px #f0f;
+	}
+	50% {
+	  text-shadow: 
+		0 0 10px #fff, 
+		0 0 20px #fff, 
+		0 0 30px #f0f, 
+		0 0 40px #f0f, 
+		0 0 50px #f0f, 
+		0 0 60px #f0f;
+	}
+  }
+  
+  .glow-text {
+	animation: glow 2s infinite alternate;
+  }
+
+#interview {
+	@font-face {
+		font-family: 'Pixely'; /* Name your custom font */
+		src: url('fonts/your-font-file.woff2') format('woff2'), /* Adjust the path and format */
+			 url('fonts/your-font-file.woff') format('woff'),
+			 url('fonts/your-font-file.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	body {
+		margin: 0;
+		height: 100vh; /* Full height of the viewport */
+		display: flex; /* Use flexbox to center the text */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		background-color: #282c34; /* Background color */
+		color: #ffffff; /* Text color */
+	}
+	
+	.centered-text {
+		font-family: 'CustomFont', sans-serif; /* Apply custom font */
+		font-size: 3rem; /* Adjust font size */
+		text-align: center; /* Center text alignment */
+	}
+}
+  

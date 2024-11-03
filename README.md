@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Interview Mania
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
-
-In the project directory, you can run:
+Interview Mania uses generative AI in order to simulate interviews at companies. 
 
 ### `npm start`
 
